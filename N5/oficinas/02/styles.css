@@ -113,3 +113,15 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.redes-sociais img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+}
