@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #006994;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #004d70;
+    border-radius: 5px;
+}
+
+main {
+    padding: 15px;
+}
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    padding: 15px;
+    color: #006994;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+button {
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    color: #006994;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #006994;
+    color: white;
+    text-align: left;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center; /* Define padrão de alinhamento no grid */
+    list-style: none;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    object-fit: cover; 
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #006994;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
