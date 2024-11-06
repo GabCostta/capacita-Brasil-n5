@@ -41,11 +41,6 @@ nav a:hover {
     border-radius: 5px; /* Bordas arredondadas */
 }
 
-/* Estilo para o conteúdo principal */
-main {
-    padding: 15px; /* Espaçamento interno */
-}
-
 /* Estilo para o título principal */
 h1 {
     color: whitesmoke; /* Cor do texto */
@@ -54,16 +49,17 @@ h1 {
 
 /* Estilo para os subtítulos */
 h2 {
-    padding: 15px; /* Espaçamento interno */
     color: #006994; /* Cor do texto */
     text-align: center; /* Centraliza o texto */
 }
 
 /* Estilo para os parágrafos */
-p {
+#descricao-noronha {
     padding: 10px; /* Espaçamento interno */
-    color: black; /* Cor do texto */
-    text-align: center; /* Centraliza o texto */
+    color: #333; /* Cor do texto mais suave */
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.8; /* Altura da linha para melhor legibilidade */
+    margin-bottom: 15px; /* Espaçamento inferior */
 }
 
 /* Estilo para as imagens */
@@ -127,7 +123,7 @@ th {
 
 /* Estilo para o hover das imagens da galeria */
 .gallery img:hover {
-    transform: scale(1.95); /* Aumenta a imagem ao passar o mouse */
+    transform: scale(1.20); /* Aumenta a imagem ao passar o mouse */
 }
 
 /* Estilo para o rodapé */
