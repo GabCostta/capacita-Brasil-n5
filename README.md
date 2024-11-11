@@ -19,7 +19,7 @@ Repositório destinado às atividades do curso de desenvolvimento fullstack da t
 
 ### Instruções Recebidas:
 
-Construa um site em HTML e CSS com a temática "Um lugar que eu gostaria de conhecer!"
+Construa um site em HTML e CSS com a temática "Um lugar que eu gostaria de conhecer!
 
 **Requisitos:**
 
@@ -30,3 +30,29 @@ Construa um site em HTML e CSS com a temática "Um lugar que eu gostaria de conh
 - Deve ser feito um vídeo mostrando o atendimento de cada requisito, explicando o funcionamento das tags e enviado para o formulário.
 
 **Entrega Oficina 02:** 05/11/24.
+
+## Oficina 03:
+
+### Instruções Recebidas:
+
+Construa um Site em HTML e CSS com a temática, "Um lugar que eu gostaria de conhecer!"
+
+Dica: Pode ser utilizado a Oficina 02
+
+**Requisitos:**
+
+- No mínimo 3 páginas diferentes ligadas por Links.
+
+- O Site tem que ter no mínimo 10 imagens.
+
+- Menu com o LINK das páginas.
+
+- Deve ser usada todas as TAGs no HTML e CSS visto em sala de aula, focando no uso de FLEX ou GRID EM TODO O SITE.(GRID OU FLEX EM TODO O SITE)
+
+- Deve ser feito um vídeo mostrando o atendimento de cada requisito, a entrega deve ser feita com links do GITHUB.
+
+VÍDEO NO REPOSITÓRIO:
+
+
+Entrega: 14/11/24 AQUI ou FORM
+Entrega: LINK do GITHUB, link do site e do repositório público.
