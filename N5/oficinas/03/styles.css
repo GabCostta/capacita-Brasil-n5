@@ -1,0 +1,158 @@
+/* Define estilos globais para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no tamanho total do elemento */
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    line-height: 1.6; /* Define a altura da linha */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #006994; /* Cor de fundo azul */
+    padding: 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Cor do texto branca */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style: none; /* Remove marcadores da lista */
+    display: flex; /* Usa flexbox para layout */
+    justify-content: center; /* Centraliza os itens */
+    gap: 15px; /* Espaçamento entre os itens */
+}
+
+/* Estilo para os links de navegação */
+nav a {
+    color: #fff; /* Cor do texto branca */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 5px 10px; /* Espaçamento interno */
+    transition: background 0.3s; /* Transição suave para o fundo */
+}
+
+/* Estilo para o hover dos links de navegação */
+nav a:hover {
+    background-color: #004d70; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Estilo para o título principal */
+h1 {
+    color: whitesmoke; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para os subtítulos */
+h2 {
+    color: #006994; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para os parágrafos */
+#descricao-noronha {
+    padding: 10px; /* Espaçamento interno */
+    color: #333; /* Cor do texto mais suave */
+    text-align: justify; /* Justifica o texto */
+    line-height: 1.8; /* Altura da linha para melhor legibilidade */
+    margin-bottom: 15px; /* Espaçamento inferior */
+}
+
+/* Estilo para as imagens */
+img {
+    display: block; /* Exibe como bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    max-width: 100%; /* Ajusta a largura máxima para 100% */
+    height: auto; /* Ajusta a altura automaticamente */
+}
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 20px; /* Espaçamento inferior */
+    padding: 10px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para os botões */
+button {
+    display: block; /* Exibe como bloco */
+    padding: 5px; /* Espaçamento interno */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    color: #006994; /* Cor do texto */
+}
+
+/* Estilo para as tabelas */
+table {
+    width: 100%; /* Largura total */
+    margin-top: 10px; /* Espaçamento superior */
+    border-collapse: collapse; /* Remove espaços entre bordas */
+}
+
+/* Estilo para as bordas da tabela */
+table, th, td {
+    border: 1px solid #ddd; /* Bordas */
+    padding: 8px; /* Espaçamento interno */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+    background-color: #006994; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: left; /* Alinhamento do texto */
+}
+
+/* Estilo para a galeria */
+.gallery {
+    display: grid; /* Usa grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colunas responsivas */
+    gap: 10px; /* Espaçamento entre itens */
+    justify-items: center; /* Centraliza itens no grid */
+    list-style: none; /* Remove marcadores da lista */
+}
+
+/* Estilo para as imagens da galeria */
+.gallery img {
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    display: block; /* Exibe como bloco */
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: transform 0.3s; /* Transição suave para transformação */
+    object-fit: cover; /* Ajusta imagem para cobrir o container */
+}
+
+/* Estilo para o hover das imagens da galeria */
+.gallery img:hover {
+    transform: scale(1.20); /* Aumenta a imagem ao passar o mouse */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #006994; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento interno */
+    margin-top: auto; /* Empurra o rodapé para o fim da página */
+}
+
+/* Estilo para as redes sociais */
+.redes-sociais {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: center; /* Centraliza os itens */
+    gap: 10px; /* Espaçamento entre itens */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilo para os ícones das redes sociais */
+.redes-sociais img {
+    width: 30px; /* Largura */
+    height: 30px; /* Altura */
+}
