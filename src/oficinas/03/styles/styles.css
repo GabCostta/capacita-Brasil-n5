@@ -113,7 +113,7 @@ th {
 /* Estilo para a galeria */
 .gallery {
     width: 100%; /* Largura total */
-    padding: 6git commit -m ":lipstick: feat:0px; /* Espaçamento interno */
+    padding: 60px; /* Espaçamento interno */
     display: grid; /* Usa grid layout */
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Colunas responsivas */
     gap: 10px; /* Espaçamento entre itens */
