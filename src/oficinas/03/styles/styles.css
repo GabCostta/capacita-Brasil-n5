@@ -66,11 +66,11 @@ h2 {
 }
 
 /* Estilo para as imagens */
-img {
+#img1 {
     display: block; /* Exibe como bloco */
     margin: 0 auto; /* Centraliza horizontalmente */
     max-width: 100%; /* Ajusta a largura máxima para 100% */
-    height: auto; /* Ajusta a altura automaticamente */
+    height: 100%; /* Ajusta a altura automaticamente */
 }
 
 /* Estilo para as seções */
