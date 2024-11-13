@@ -70,7 +70,7 @@ h2 {
     display: block; /* Exibe como bloco */
     margin: 0 auto; /* Centraliza horizontalmente */
     max-width: 100%; /* Ajusta a largura máxima para 100% */
-    height: 100%; /* Ajusta a altura automaticamente */
+    height: auto; /* Ajusta a altura automaticamente */
 }
 
 /* Estilo para as seções */
@@ -112,8 +112,10 @@ th {
 
 /* Estilo para a galeria */
 .gallery {
+    width: 100%; /* Largura total */
+    padding: 6git commit -m ":lipstick: feat:0px; /* Espaçamento interno */
     display: grid; /* Usa grid layout */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Colunas responsivas */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Colunas responsivas */
     gap: 10px; /* Espaçamento entre itens */
     justify-items: center; /* Centraliza itens no grid */
     list-style: none; /* Remove marcadores da lista */
@@ -121,8 +123,8 @@ th {
 
 /* Estilo para as imagens da galeria */
 .gallery img {
-    width: 100%; /* Largura total */
-    height: 100%; /* Altura total */
+    width: 230px; /* Largura total */
+    height: 150px; /* Altura total */
     display: block; /* Exibe como bloco */
     border-radius: 8px; /* Bordas arredondadas */
     transition: transform 0.3s; /* Transição suave para transformação */
@@ -131,7 +133,7 @@ th {
 
 /* Estilo para o hover das imagens da galeria */
 .gallery img:hover {
-    transform: scale(1.20); /* Aumenta a imagem ao passar o mouse */
+    transform: scale(1.10); /* Aumenta a imagem ao passar o mouse */
 }
 
 /* Estilo para o rodapé */
