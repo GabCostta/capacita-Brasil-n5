@@ -15,6 +15,8 @@ Repositório destinado às atividades do curso de desenvolvimento fullstack da t
 7. **Criando Listas:** Adicione uma lista ordenada e uma lista não ordenada.
 8. **Desafio Final:** Crie uma seção de formulário que solicite o nome e o e-mail do usuário e inclua um botão de envio.
 
+VÍDEO ENTREGA: https://drive.google.com/file/d/1uwSyN3E70rWB0lf7DuHrlMWD0qE-RC8y/view?usp=sharing
+
 ## Oficina 02:
 
 ### Instruções Recebidas:
@@ -28,6 +30,8 @@ Construa um site em HTML e CSS com a temática "Um lugar que eu gostaria de conh
 - Menu com o link das páginas.
 - Deve ser usada todas as tags no HTML e CSS vistas em sala de aula, como tags de parágrafos, listas, tabelas, imagens, etc.
 - Deve ser feito um vídeo mostrando o atendimento de cada requisito, explicando o funcionamento das tags e enviado para o formulário.
+
+VÍDEO ENTREGA: https://drive.google.com/file/d/1cxuAo54klhO3Z6wqfIlywjj69dQsukpn/view?usp=sharing
 
 **Entrega Oficina 02:** 05/11/24.
 
@@ -51,7 +55,7 @@ Dica: Pode ser utilizado a Oficina 02
 
 - Deve ser feito um vídeo mostrando o atendimento de cada requisito, a entrega deve ser feita com links do GITHUB.
 
-VÍDEO NO REPOSITÓRIO:
+VÍDEO ENTREGA: https://drive.google.com/file/d/155b1YdTrQKlw86LQ5BWpQDlgB8zWfawJ/view?usp=sharing
 
 
 Entrega: 14/11/24 AQUI ou FORM
